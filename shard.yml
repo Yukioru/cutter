@@ -1,0 +1,29 @@
+name: cutter
+version: 0.1.0
+crystal: 1.0.0
+
+description: |
+  Server for create and store short links
+
+authors:
+  - Andrey Kondalov <i@yukio.ru>
+
+executables:
+  - cutter
+
+targets:
+  cutter:
+    main: src/app.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  moongoon:
+    github: elbywan/moongoon
+  config:
+    github: chris-huxtable/config.cr
+
+development_dependencies:
+  sentry:
+    github: samueleaton/sentry
+    branch: master

@@ -1,0 +1,5 @@
+bin/
+dev/
+lib/
+sentry
+config/config.conf

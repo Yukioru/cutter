@@ -1,0 +1,4 @@
+display_name: cutter
+build: shards build
+run: ./bin/cutter
+watch: ["./src/**/*.cr", "./src/**/*.ecr"]

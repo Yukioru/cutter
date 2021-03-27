@@ -1,0 +1,58 @@
+version: 2.0
+shards:
+  bson:
+    git: https://github.com/elbywan/bson.cr.git
+    version: 0.3.1
+
+  coffee:
+    git: https://github.com/636f7374/coffee.cr.git
+    version: 0.1.1
+
+  config:
+    git: https://github.com/chris-huxtable/config.cr.git
+    version: 0.1.6
+
+  cryomongo:
+    git: https://github.com/elbywan/cryomongo.git
+    version: 0.3.5
+
+  db:
+    git: https://github.com/crystal-lang/crystal-db.git
+    version: 0.10.1
+
+  durian:
+    git: https://github.com/636f7374/durian.cr.git
+    version: 0.1.5
+
+  exception_page:
+    git: https://github.com/crystal-loot/exception_page.git
+    version: 0.1.4
+
+  ipaddress:
+    git: https://github.com/64726f70/ipaddress.cr.git
+    version: 1.0.0
+
+  kemal:
+    git: https://github.com/kemalcr/kemal.git
+    version: 1.0.0
+
+  kilt:
+    git: https://github.com/jeromegn/kilt.git
+    version: 0.4.1
+
+  moongoon:
+    git: https://github.com/elbywan/moongoon.git
+    version: 0.7.3
+
+  radix:
+    git: https://github.com/luislavena/radix.git
+    version: 0.4.1
+
+  sentry:
+    git: https://github.com/samueleaton/sentry.git
+    version: 0.3.2+git.commit.edcafd89be2658a4bd306ca1096ef9918c727edf
+
+  wrench:
+    git: https://github.com/73686f77/wrench.cr.git
+    version: 0.1.3
+
