@@ -13,4 +13,4 @@ Moongoon.after_connect {
   Kemal.run
 }
 
-Moongoon.connect(App::MONGO_URL, database_name: App::MONGO_DATABASE)
+Moongoon.connect("#{App::MONGO_URL}/?authSource=#{App::MONGO_DATABASE}", database_name: App::MONGO_DATABASE)
